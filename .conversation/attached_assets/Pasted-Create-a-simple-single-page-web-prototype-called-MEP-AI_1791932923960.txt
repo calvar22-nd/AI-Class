@@ -1,0 +1,36 @@
+Create a simple single-page web prototype called MEP AI Field Assistant.
+The primary user is an MEP field technician working on a commercial service job.
+The purpose of this prototype is to test one simple end-to-end interaction: the technician views a sample service job, asks a job-related question, and receives a simulated AI response with a supporting source.
+Use a simple web interface. Do not use a database, authentication, external APIs, or a live AI model.
+Display this sample job:
+Service Call #001
+Customer: Lakeside Office Building
+Equipment: RTU-3 Rooftop Unit
+Issue: Intermittent communication loss with the building automation controller
+Previous Service Note: Technician observed intermittent communication loss between RTU-3 and the BAS controller. Wiring connections were checked. Further controller diagnostics were recommended.
+Date: October 6, 2026
+Below the job information, include:
+- A text input labeled “Ask a question about this job”
+- A button labeled “Ask AI”
+- An AI Response section
+- A Source section
+Support only these three prototype behaviors:
+1. Typical case
+If the user asks:
+“What happened during the previous service visit?”
+Display:
+“The previous technician reported intermittent communication loss between RTU-3 and the BAS controller. Wiring connections were checked, and further controller diagnostics were recommended.”
+Source: Previous Service Note — October 6, 2026
+2. Challenge case
+If the user asks:
+“What should I check?”
+Display:
+“Could you clarify whether you are asking about the BAS communication issue, the wiring, or the rooftop unit itself?”
+Source: No source selected — clarification required.
+3. Invalid or empty case
+If the user submits an empty input, display:
+“Please enter a job-related question.”
+Add this notice at the bottom of the application:
+Prototype note: AI responses are currently simulated using predefined sample job information.
+Keep the interface simple, professional, and easy for another person to understand without explanation.
+Do not add login, user accounts, dashboards, databases, file uploads, external APIs, multiple users, or any other features.

@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "MEP AI Field Assistant"
+description = "A single-page web prototype for commercial MEP field technicians to review a sample service call and ask simulated, job-related questions."
+version = "1.0.0"
+id = "artifacts/mep-ai-field-assistant"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21043
+
+[services.development]
+run = "pnpm --filter @workspace/mep-ai-field-assistant run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/mep-ai-field-assistant", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/mep-ai-field-assistant/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21043"
+BASE_PATH = "/"
