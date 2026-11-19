@@ -45,3 +45,8 @@ The prototype does not connect to Salesforce, work-order systems, document repos
 ## Future Work
 
 Future iterations may include live AI retrieval, additional job documentation, improved source citation, and testing with a broader set of MEP field scenarios.
+
+## Prototype Revision Documentation
+
+[View the full prototype revision, peer feedback response, evaluation, and risk analysis](revision.md)
+
