@@ -1,4 +1,4 @@
-# Draft AI-Use Disclosure
+# AI-Use Disclosure
 
 ## 1. Tools Used
 
