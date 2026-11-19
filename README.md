@@ -54,3 +54,9 @@ Future iterations may include live AI retrieval, additional job documentation, i
 
 [View AI-use disclosure](ai-use-disclosure.md)
 
+## Demo Video
+
+[View the draft demo video on Google Drive](https://drive.google.com/file/d/1bdc3ZujeVbWianr4kQNyMcZrynqWJLD4/view?usp=sharing)
+
+
+
