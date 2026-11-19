@@ -50,3 +50,7 @@ Future iterations may include live AI retrieval, additional job documentation, i
 
 [View the full prototype revision, peer feedback response, evaluation, and risk analysis](revision.md)
 
+## AI-Use Disclosure
+
+[View the draft AI-use disclosure](ai-use-disclosure.md)
+
