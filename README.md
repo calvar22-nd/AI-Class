@@ -52,5 +52,5 @@ Future iterations may include live AI retrieval, additional job documentation, i
 
 ## AI-Use Disclosure
 
-[View the draft AI-use disclosure](ai-use-disclosure.md)
+[View AI-use disclosure](ai-use-disclosure.md)
 
